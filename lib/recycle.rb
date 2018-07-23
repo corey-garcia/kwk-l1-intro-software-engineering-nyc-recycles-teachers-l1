@@ -23,7 +23,9 @@ end
 
 #2. Define a method called `borough` that takes a hash as an argument.
 # This method should return the value of the borough key in the hash.
-
+def borough(schedule)
+  return schedule[borough]
+end 
 #3. Define a method called `all_keys` that takes a hash as an argument.
 #This method should print out each key in the hash. 
 #You should use the `each_key` method to iterate over your hash and print out each key.
